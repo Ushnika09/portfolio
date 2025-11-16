@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- link for font awesome and poppins -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <header class="header" aria-label="site-header">
+      <div class="container">
+        <!-- logo -->
+        <div class="logo" aria-label="logo">
+          <h2 class="logo">Portfolio</h2>
+        </div>
+        <!-- navigation links -->
+        <nav class="navbar" aria-label="main-navigation">
+          <ul class="nav-links">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#testimonial">Testimonials</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- toggle button -->
+        <div class="theme-toggle" aria-label="theme-toggle">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Header ends here -->
+
+    <!-- Hero section -->
+    <section class="hero" id="home" aria-label="homepage">
+      <div class="hero-content">
+        <h1>Ushnika Kar</h1>
+        <p>I am <span class="typed-text"></span></p>
+
+        <!-- CTA button -->
+        <button class="explore">Explore My Work</button>
+
+        <!-- social-links -->
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"
+            ><img
+              src="https://img.icons8.com/color/48/000000/linkedin.png"
+              alt="LinkedIn"
+          /></a>
+          <a href="#" aria-label="GitHub"
+            ><img
+              src="https://img.icons8.com/color/48/000000/github.png"
+              alt="GitHub"
+          /></a>
+          <a href="#" aria-label="Twitter"
+            ><img
+              src="https://img.icons8.com/color/48/000000/twitter.png"
+              alt="Twitter"
+          /></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+          alt="image"
+        />
+      </div>
+    </section>
+    <!-- hero ends here -->
+
+    <!-- recent work starts here -->
+    <section class="work" id="work" work-label="Recent work sections">
+      <div class="work_container">
+        <h2>Recent Works</h2>
+
+        <div class="work_samples">
+          <!-- Sample 1 -->
+          <div class="sample">
+            <img
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+              alt="work sample 1"
+            />
+            <div class="overlay">
+              <h3>Project Title 1</h3>
+              <div class="btn_cta">
+                <button>Live Demo</button>
+                <button>View Code</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sample 2 -->
+          <div class="sample">
+            <img
+              src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+              alt="work sample 2"
+            />
+            <div class="overlay">
+              <h3>Project Title 2</h3>
+              <div class="btn_cta">
+                <button>Live Demo</button>
+                <button>View Code</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sample 3 -->
+          <div class="sample">
+            <img
+              src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
+              alt="work sample 3"
+            />
+            <div class="overlay">
+              <h3>Project Title 3</h3>
+              <div class="btn_cta">
+                <button>Live Demo</button>
+                <button>View Code</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sample 4 -->
+          <div class="sample">
+            <img
+              src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
+              alt="work sample 4"
+            />
+            <div class="overlay">
+              <h3>Project Title 4</h3>
+              <div class="btn_cta">
+                <button>Live Demo</button>
+                <button>View Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- recent work ends here -->
+
+    <!-- Services section starts  -->
+    <section class="services" id="services" aria-label="services section">
+      <div class="service-cards-container">
+        <h2 class="section-title">Services I Offer</h2>
+        <div class="services-container">
+          <div class="service-card">
+            <i class="fas fa-code service-icon"></i>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">
+              Building responsive and dynamic websites using modern
+              technologies.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-paint-brush service-icon"></i>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-description">
+              Designing user-friendly interfaces with a focus on user
+              experience.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h3 class="service-title">Mobile App Development</h3>
+            <p class="service-description">
+              Creating mobile applications for both Android and iOS platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section ends  -->
+
+    <!-- Testimonials section starts  -->
+    <section
+      class="testimonials"
+      id="testimonial"
+      aria-label="testimonials section"
+    >
+      <div class="testimonials-container">
+        <h2 class="section-title">What Clients Say</h2>
+
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <img
+              src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg"
+              alt=""
+            />
+            <p class="testimonial-text">
+              "Great work! Highly recommend for web development projects."
+            </p>
+            <h3 class="testimonial-author">John Doe</h3>
+            <h3 class="designation">Web Developer</h3>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+              alt=""
+            />
+            <p class="testimonial-text">
+              "Professional and timely delivery. Excellent UI/UX design skills."
+            </p>
+            <h3 class="testimonial-author">Jane Smith</h3>
+            <h3 class="designation">UI/UX Designer</h3>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+              alt=""
+            />
+            <p class="testimonial-text">
+              "Creative and efficient mobile app developer. Very satisfied."
+            </p>
+            <h3 class="testimonial-author">Emily Johnson</h3>
+            <h3 class="designation">Product Manager</h3>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+              alt=""
+            />
+            <p class="testimonial-text">
+              "Outstanding experience working together. Highly skilled!"
+            </p>
+            <h3 class="testimonial-author">Michael Brown</h3>
+            <h3 class="designation">Entrepreneur</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials section ends  -->
+
+    <!-- Contact section starts    -->
+    <section class="contact" id="contact" aria-label="contact section">
+      <div class="contact-container">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact section ends    -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

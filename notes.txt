@@ -1,0 +1,5 @@
+### 2. MyBrand: Work Showcase & Contact Portal
+Description:
+A personal portfolio site to display projects, testimonials, and services.
+Objective:
+Understand professional personal branding, sectioning, and modern UI creation.
