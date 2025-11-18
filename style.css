@@ -214,6 +214,7 @@ body{
     overflow: hidden;
     transition: var(--transition);
     position: relative;
+    cursor: pointer;
 }
 
 .sample img{
@@ -476,4 +477,10 @@ body{
 
 .contact-form button:hover{
     background-color: rgba(124, 58, 237, 0.7);
+}
+
+
+.typed-text{
+    color: var(--accent-color);
+    font-weight: 700;
 }
