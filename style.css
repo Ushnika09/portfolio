@@ -484,3 +484,36 @@ body{
     color: var(--accent-color);
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 120px 20px 50px 20px;
+        gap: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .work_samples{
+        grid-template-columns: 1fr;
+    }
+    .service-cards-container,.testimonials-container,.contact-container{
+        padding: 50px 20px;
+    }
+
+    .work_container{
+        padding: 20px 20px;
+    }
+    .navbar {
+        display: none;
+    }
+    .container {
+        padding:  20px 60px;
+    }
+}
